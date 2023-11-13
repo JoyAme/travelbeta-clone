@@ -103,9 +103,11 @@ a{
 } */
 .together{
    position: relative;
+   width:90%;
+   margin: auto;
     /* text-align: center; */
-    margin-left: 6%;
-    margin-right: 6%;
+    /* margin-left: 6%;
+    margin-right: 6%; */
    bottom: 10rem;
     /* width: 600px; */
 }
@@ -153,7 +155,7 @@ a{
 #arrow{
     background-color: rgba(107, 110, 110, 0.825);
     border-radius: 999px;
-    padding: 7px;
+    padding: 10px;
     color: white;
     font-size: 34px;
 }
@@ -223,10 +225,12 @@ a{
 /* third */
 .third{
     display: flex;
+    width:90%;
+    margin: auto;
     position: relative;
-padding-bottom: 30px;
+    margin-bottom: 7%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .services{
     display: flex;
@@ -284,23 +288,26 @@ padding-bottom: 30px;
 }
 /* fourth */
 .trend{
-    font-size: 30px;
+    font-size: 60px;
 }
 .phone{
     background-color: green;
+    border:2px solid white;
     color: white;
-    padding:10px;
+    font-size: 24px;
+    padding:12px;
     border-radius: 999px;
 }
 .watsapp{
     color: white;
     display: flex;
     text-align: center;
-    width:15rem;
+    width:16rem;
     /* padding: 10px; */
     border-radius: 5px;
     align-items: center;
-    justify-content: center;
+    
+    justify-content: space-around;
     background-color: rgb(5, 105, 64);
 }
 .help{
@@ -309,6 +316,8 @@ padding-bottom: 30px;
 
 .fourth{
     display: flex;
+    /* width: 90%; */
+    /* margin: auto; */
     justify-content: space-around;
 }
 @media screen and (max-width:480px){
