@@ -488,26 +488,26 @@ span{
 }
 #name{
     width:20rem;
-    padding: 20px;
+    padding: 30px;
     border: none;
-    border-radius: 6px;
+    border-radius: 4px;
     outline: none;
 }
 #email{
     width:20rem;
-    padding: 20px;
+    padding: 30px;
     border: none;
-    border-radius: 6px;
+    border-radius: 4px;
     outline: none;
 }
 #submit{
-    width:10rem;
+    width:14rem;
     background-color: orange;
     border: none;
     font-size: 18px;
     border-radius: 6px;
     color: white;
-    padding: 18px;
+    padding: 30px;
 }
 
 /* nine */
@@ -656,9 +656,10 @@ span{
      }
      .eight{
         display: block;
-        text-align: center;
+      
+        text-align:center;
         height:45vh;
-        justify-content: center;
+      
      }
      .loud{
         display: block;
@@ -699,5 +700,34 @@ span{
     }
     .need-h{
         font-size: 10px;
+    }
+    #trump{
+        font-size:40px ;
+    }
+    #name{
+        width:25rem;
+        padding: 30px;
+       
+    }
+    #email{
+        margin-top: 20px;
+        width:25rem;
+        padding: 30px;
+       
+    }
+    #submit{
+     
+        margin-top: 20px;
+        font-size: 28px;
+     padding: 18px;
+        
+    }
+    .annouce{
+        font-size: 24px;
+        width:204px;
+        margin-bottom: 20px;
+    }
+    .enter{
+        width:220px;
     }
 }
