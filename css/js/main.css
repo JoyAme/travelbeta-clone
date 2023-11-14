@@ -441,6 +441,33 @@ span{
     display: flex;
     border-radius: 5px;
 }
+.seventh{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.colabo{
+    margin-right: 90px; 
+}
+.colabo1{
+    width: 50%;
+}
+.colabo2{
+    width: 70%;
+}
+.colabo5{
+    width: 60%;
+}
+/* seventh */
+.trump{
+    color: blue;
+}
+
+
+
+
+
 @media screen and (max-width:480px){
     .third{
         display: block;
@@ -475,4 +502,30 @@ span{
     .book-k{
         /* width:70%; */
     }
+    .sixth{
+        display: block;
+      justify-content: center;
+        align-items: center;
+      
+    }
+    .bus-D{
+        width:40vh;
+    }
+    .bottom{
+        display: block;
+        margin-top: 40px;
+        
+        justify-content: center;
+    }
+    .calendars{
+        background-color: rgb(4, 4, 60);
+        height: 49vh;
+        color: white;
+    }
+    .together{
+      
+        width:100%;
+        margin: auto;
+        
+     }
 }
