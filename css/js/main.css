@@ -586,10 +586,7 @@ span{
     .trend{
         font-size: 24px;
     }
-    .deals{
-        font-size: 12px;
-        width:200px;
-    }
+ 
     .watsapp{
        
         width:10rem;
@@ -609,6 +606,7 @@ span{
     
     .flight-B{   
         display:block;
+        justify-content: center;
     }
     .deal-c{
         /* background-color: white;
@@ -621,18 +619,26 @@ span{
       
         
     }
+    .deals{
+        /* font-size: 12px;
+        width:200px; */
+    }
     .flight1{
-        width: 42vh;
+        width: 39vh;
      }
+     .fl
     .book-k{
         /* width:70%; */
     }
     .sixth{
         display: block;
       justify-content: center;
-      text-align: center;
+      /* text-align: center; */
         align-items: center;
       
+    }
+    .rental{
+        text-align: center;
     }
     .bus-D{
         width:40vh;
@@ -658,7 +664,7 @@ span{
         display: block;
       
         text-align:center;
-        height:45vh;
+        height:55vh;
       
      }
      .loud{
@@ -685,7 +691,7 @@ span{
         font-size: 30px;
      }
      .colabo{
-        margin-right: 50px; 
+        margin-right: 40px; 
     }
     .going{
         /* color: white;
@@ -694,6 +700,9 @@ span{
         left:50px; */
         font-size: 40px;
         
+    }
+    .class-btnn{
+        justify-content: center;
     }
     .need{
         font-size: 12px;
@@ -730,4 +739,15 @@ span{
     .enter{
         width:220px;
     }
+    .services,
+    .services1{
+     margin-bottom: 20px;
+    }
+    .topic{
+        font-size: 18px;
+    }
+    .passp{
+        width:60px;
+    }
+    
 }
