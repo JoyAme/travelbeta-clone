@@ -570,8 +570,11 @@ span{
 
 @media screen and (max-width:480px){
     body{
-        background-color: brown;
+        background-color: white;
     }
+    /* .header{
+        display: block;
+    } */
     .third{
         display: block;
        
@@ -585,6 +588,7 @@ span{
     }
     .deals{
         font-size: 12px;
+        width:200px;
     }
     .watsapp{
        
@@ -626,6 +630,7 @@ span{
     .sixth{
         display: block;
       justify-content: center;
+      text-align: center;
         align-items: center;
       
     }
@@ -662,4 +667,37 @@ span{
      .btn{
         display: none;
      }
+     span{
+        font-size: 20px;
+     }
+     .lag{
+        font-size: 16px;
+     }
+     .spot{
+        font-size: 12px;
+     }
+     .skills{
+        font-size: 20px;
+        width:400px;
+     }
+     .rent{
+        font-size: 30px;
+     }
+     .colabo{
+        margin-right: 50px; 
+    }
+    .going{
+        /* color: white;
+        position: absolute;
+        top:10rem;
+        left:50px; */
+        font-size: 40px;
+        
+    }
+    .need{
+        font-size: 12px;
+    }
+    .need-h{
+        font-size: 10px;
+    }
 }
