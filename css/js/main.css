@@ -320,9 +320,159 @@ a{
     /* margin: auto; */
     justify-content: space-around;
 }
+/* fifth */
+.book-k{
+    width:100%;
+    object-fit: cover;
+}
+.deal-c{
+    background-color: white;
+    width:19%;
+    border-radius: 5px;
+    padding: 7px;
+    position: absolute;
+    top: 23px;
+    left:460px;
+  
+    
+}
+.flight1{
+    background-color: white;
+    width: 62vh;
+    padding: 20px;
+    border: 2px solid rgb(212, 203, 203);
+    border-radius: 8px;
+}
+.under{
+    display: flex;
+    justify-content: space-between;
+}
+.flight-B{
+    width: 90%;
+    margin: auto;
+    display:flex;
+   justify-content: space-between;
+}
+/* .deals{
+    display: flex;
+    justify-content: right;
+} */
+.flight2{
+    position: relative;
+}
+
+.rout{
+    display: flex;
+    align-items: center;
+}
+.route{
+    position: absolute;
+    top: 36px;
+    left:30px;
+   
+}
+.price{
+    position: absolute;
+    bottom: 50px;
+    left:30px;
+   
+}
+span{
+    font-size: 50px;
+    color: white;
+}
+.lag{
+    font-size: 28px;
+    color: white;
+}
+#spot{
+    font-size: 16px;
+    color: white;
+}
+#spot1{
+    font-size: 16px;
+    color: black;
+}
+.class-btn{
+    border: none;
+    background: orange;
+    color: white;
+    width:170px;
+    height: 50px;
+    justify-content: center;
+    font-size: 22px;
+    align-items: center;
+    /* padding: 7px; */
+    display: flex;
+    border-radius: 5px;
+}
+
+/* sixth */
+.sixth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.bus-D{
+    width:90vh;
+}
+.skills{
+    margin-top: 50px;
+    width:500px;
+    color: grey;
+    font-size: 25px;
+}
+.rent{
+    width:450px;
+    font-size: 50px;
+}
+.class-btnn{
+    margin-top: 50px;
+    border: none;
+    background: orange;
+    color: white;
+    width:280px;
+    height: 60px;
+    justify-content: space-around;
+    font-size: 28px;
+    align-items: center;
+    /* padding: 7px; */
+    display: flex;
+    border-radius: 5px;
+}
 @media screen and (max-width:480px){
     .third{
         display: block;
         background-color: rgb(64, 109, 51);
+    }
+    .flight-B{
+      
+        display:block;
+       
+       
+       
+      
+    }
+    .deal-c{
+        /* background-color: white;
+        width:19%;
+        border-radius: 5px;
+        padding: 7px;
+        position: absolute;
+        top: 23px; */
+        left:300px;
+      
+        
+    }
+    .flight1{
+        /* background-color: white; */
+        width: 42vh;
+        /* padding: 20px;
+        border: 2px solid rgb(212, 203, 203);
+        border-radius: 8px; */
+    }
+    .book-k{
+        /* width:70%; */
     }
 }
