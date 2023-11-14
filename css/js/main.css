@@ -82,6 +82,7 @@ a{
 
 .bookings-1{
     display: flex;
+    
 }
 .center{
   
@@ -460,26 +461,150 @@ span{
     width: 60%;
 }
 /* seventh */
-.trump{
+#trump{
     color: blue;
+    font-size: 90px;
+    margin-right: 30px;
+}
+.eight{
+    margin-top: 40px;
+    justify-content: space-around;
+    display: flex;
+   height:25vh;
+    align-items: center;
+    background-color: rgba(85, 145, 243, 0.5);
+}
+.loud{
+    display: flex;
+    align-items: start;
+}
+.annouce{
+    font-size: 27px;
+    width:460px;
+    margin-bottom: 20px;
+}
+.enter{
+    color: grey;
+}
+#name{
+    width:20rem;
+    padding: 20px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+#email{
+    width:20rem;
+    padding: 20px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+#submit{
+    width:10rem;
+    background-color: orange;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    color: white;
+    padding: 18px;
+}
+
+/* nine */
+.nine{
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.F--{
+    font-size: 42px;
+}
+.F---{
+    font-size: 20px;
+    color: grey;
+}
+
+.locate{
+   display: flex;
+   justify-content: center;
+    width:70%;
+    margin-top: 5%;
+    position: relative;
+}
+.fix-1{
+    position: absolute;
+    left:60px; 
+}
+.fix-2{
+    position: absolute;
+    right:80px; 
+}
+.fix-3{
+    position: absolute;
+    top:20px; 
+    /* right: 50px; */
+}
+.fixit{
+    margin-left: 90px;
+}
+.fixitt{
+    margin-left: 90px;
+}
+.fixit1{
+    margin-left: 90px;
+}
+.fixit11{
+    margin-left: 50px;
+}
+#doot{
+    font-size: 18px;
+}
+.country{
+    font-size: 20px;
+}
+.ten{
+    display: flex;
+    background-color: rgb(5, 5, 68);
 }
 
 
 
-
-
 @media screen and (max-width:480px){
+    body{
+        background-color: brown;
+    }
     .third{
         display: block;
-        background-color: rgb(64, 109, 51);
+       
     }
-    .flight-B{
-      
+    .describe{
+        font-size: 16px;
+        width:230px;
+    }
+    .trend{
+        font-size: 24px;
+    }
+    .deals{
+        font-size: 12px;
+    }
+    .watsapp{
+       
+        width:10rem;
+       
+    }
+    .phone{
+        font-size: 18px;
+        padding:10px;
+    }
+    .bookings-1{
+        display: grid;
+        grid-template-columns: repeat(4px,300px);
+        align-items: center;
+    }
+
+
+    
+    .flight-B{   
         display:block;
-       
-       
-       
-      
     }
     .deal-c{
         /* background-color: white;
@@ -493,12 +618,8 @@ span{
         
     }
     .flight1{
-        /* background-color: white; */
         width: 42vh;
-        /* padding: 20px;
-        border: 2px solid rgb(212, 203, 203);
-        border-radius: 8px; */
-    }
+     }
     .book-k{
         /* width:70%; */
     }
@@ -527,5 +648,18 @@ span{
         width:100%;
         margin: auto;
         
+     }
+     .eight{
+        display: block;
+        text-align: center;
+        height:45vh;
+        justify-content: center;
+     }
+     .loud{
+        display: block;
+      
+     }
+     .btn{
+        display: none;
      }
 }
