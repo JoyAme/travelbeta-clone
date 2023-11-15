@@ -317,8 +317,8 @@ a{
 
 .fourth{
     display: flex;
-    /* width: 90%; */
-    /* margin: auto; */
+    width: 90%;
+    margin: auto;
     justify-content: space-around;
 }
 /* fifth */
@@ -588,14 +588,14 @@ span{
     }
  
     .watsapp{
-       
-        width:10rem;
+       padding: 25px;
+        /* width:10rem; */
        
     }
-    .phone{
-        font-size: 18px;
-        padding:10px;
-    }
+    /* .phone{
+        font-size: 38px;
+        /* padding:10px; */
+    } */
     .bookings-1{
         display: grid;
         grid-template-columns: repeat(4px,300px);
@@ -616,7 +616,7 @@ span{
         position: absolute;
         top: 23px; */
         left:300px;
-      
+        width:13%;
         
     }
     .deals{
@@ -631,15 +631,17 @@ span{
         /* width:70%; */
     }
     .sixth{
-        display: block;
-      justify-content: center;
+        display:flex;
+        flex-direction: column;
+        
+    
       /* text-align: center; */
-        align-items: center;
+        
       
     }
-    .rental{
+    /* .rental{
         text-align: center;
-    }
+    } */
     .bus-D{
         width:40vh;
     }
@@ -659,6 +661,11 @@ span{
         width:100%;
         margin: auto;
         
+     }
+     .fourth{
+        display: block;
+ 
+        justify-content: center;
      }
      .eight{
         display: block;
@@ -705,10 +712,10 @@ span{
         justify-content: center;
     }
     .need{
-        font-size: 12px;
+        font-size: 30px;
     }
     .need-h{
-        font-size: 10px;
+        font-size: 16px;
     }
     #trump{
         font-size:40px ;
@@ -748,6 +755,14 @@ span{
     }
     .passp{
         width:60px;
+    }
+    .phone{
+        background-color: green;
+        border:2px solid white;
+        color: white;
+        font-size: 14px;
+        padding:8px;
+        border-radius: 999px;
     }
     
 }
