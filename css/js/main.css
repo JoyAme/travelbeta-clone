@@ -624,11 +624,13 @@ span{
         width:200px; */
     }
     .flight1{
-        width: 39vh;
+        height: 35vh;
+        width: 100%;
      }
      .fl
     .book-k{
-        /* width:70%; */
+        height: 75%;
+        width:70%;
     }
     .sixth{
         display:flex;
