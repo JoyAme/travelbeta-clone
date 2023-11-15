@@ -592,10 +592,10 @@ span{
         /* width:10rem; */
        
     }
-    /* .phone{
-        font-size: 38px;
-        /* padding:10px; */
-    } */
+    .phone{
+        font-size: 18px;
+        padding:10px;
+    }
     .bookings-1{
         display: grid;
         grid-template-columns: repeat(4px,300px);
@@ -624,13 +624,14 @@ span{
         width:200px; */
     }
     .flight1{
-        height: 35vh;
-        width: 100%;
+       /* width:26vh;  */
+       height: 80%;
+       width:100%;
      }
      .fl
     .book-k{
-        height: 75%;
-        width:70%;
+        /* width: 9vh; */
+       height: 90%;
     }
     .sixth{
         display:flex;
@@ -714,7 +715,7 @@ span{
         justify-content: center;
     }
     .need{
-        font-size: 30px;
+        font-size: 20px;
     }
     .need-h{
         font-size: 16px;
