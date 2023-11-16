@@ -757,15 +757,16 @@ span{
         font-size: 16px;
     }
     #trump{
-        font-size:40px ;
+        margin: 30px;
+        /* font-size:0px ; */
     }
     #name{
         width:20rem;
         padding: 20px;
-        height: 6rem;
+        height: 5rem;
     }
     #email{
-        height: 6rem;
+        height: 5rem;
         margin-top: 20px;
         width:20rem;
         padding: 20px;
@@ -773,18 +774,21 @@ span{
     }
     #submit{
      
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 28px;
      padding: 18px;
+     margin-bottom: 20px;
         
     }
     .annouce{
-        font-size: 24px;
-        width:204px;
+        /* font-size: 24px; */
+        width:244px;
         margin-bottom: 20px;
     }
     .enter{
-        width:220px;
+        font-size: 20px;
+        width:280px;
+        margin-bottom: 20px;
     }
     .services,
     .services1{
