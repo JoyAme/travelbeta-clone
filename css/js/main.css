@@ -444,14 +444,17 @@ span{
 }
 .seventh{
     display: flex;
-    margin-top: 60px;
     align-items: center;
     justify-content: center;
+    /* display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center; */
 }
 .colabo{
     margin-right: 90px; 
 }
-.colabo1{
+/* .colabo1{
     width: 50%;
 }
 .colabo2{
@@ -459,7 +462,7 @@ span{
 }
 .colabo5{
     width: 60%;
-}
+} */
 /* seventh */
 #trump{
     color: blue;
@@ -604,7 +607,13 @@ span{
         grid-template-columns: repeat(4px,300px);
         align-items: center;
     }
-
+.seventh{
+   margin: 90px;
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    row-gap: 10px;
+    justify-content: center;
+}
 
     
     .flight-B{   
@@ -665,9 +674,11 @@ span{
         
       
     }
-    /* .rental{
-        text-align: center;
-    } */
+    .rental{
+        display: block;
+        margin-left: 50px;
+        justify-content: center;
+    }
     .bus-D{
         width:40vh;
     }
@@ -735,7 +746,8 @@ span{
         
     }
     .class-btnn{
-        justify-content: center;
+       text-align: center;
+      
     }
     .need{
         font-size: 20px;
