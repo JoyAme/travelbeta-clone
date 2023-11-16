@@ -761,14 +761,14 @@ span{
     }
     #name{
         width:23rem;
-        padding: 30px;
+        padding: 20px;
         height: 6rem;
     }
     #email{
         height: 6rem;
         margin-top: 20px;
         width:23rem;
-        padding: 30px;
+        padding: 20px;
        
     }
     #submit{
