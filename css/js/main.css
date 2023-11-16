@@ -610,15 +610,19 @@ span{
         grid-template-columns: repeat(4px,300px);
         align-items: center;
     }
+    /* seventh line */
+
 .seventh{
    margin: 90px;
     display: grid;
-    grid-template-columns: repeat(2,150px);
+    grid-template-columns: repeat(3,120px);
     row-gap: 10px;
     justify-content: center;
 }
-
-    
+ .colabo{
+       
+    }
+/*end  */
    
 #inpufix{
     width:90%;
@@ -679,23 +683,30 @@ height:20vh ;
         margin-top: 18vh;
         
     }
+
+    /* sixth line */
     .sixth{
         display:flex;
         flex-direction: column;
         
-    
-      /* text-align: center; */
-        
-      
+    }
+    .class-btnn{
+        width:320px;
+        justify-content: center;
+    }
+    .class-btn1{
+        font-size: 18px;
+        margin-right: 5px;
     }
     .rental{
         display: grid;
-      text-align: center;
-        justify-content: center;
+      margin-left: 40px;
     }
     .bus-D{
-        width:40vh;
+        width:42vh;
     }
+    /* end */
+
     .bottom{
         display: block;
         margin-top: 40px;
@@ -743,20 +754,13 @@ height:20vh ;
      .rent{
         font-size: 30px;
      }
-     .colabo{
-        margin-right: 40px; 
-    }
+    
     .going{
         /* color: white;
         position: absolute;
         top:10rem;
         left:50px; */
-        font-size: 40px;
-        
-    }
-   
-    .class-btn1{
-        font-size: 16px;
+        font-size: 40px;   
     }
     .need{
         font-size: 20px;
@@ -768,6 +772,8 @@ height:20vh ;
         margin: 30px;
         /* font-size:0px ; */
     }
+
+    /* eight line */
     .eight{
         display: grid;
       
@@ -808,6 +814,7 @@ height:20vh ;
         margin-bottom: 20px;
     }
 
+/* end  */
 
     .services,
     .services1{
