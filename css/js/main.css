@@ -675,12 +675,7 @@ height:20vh ;
        height: 20rem;
 
     }
-    .somwhere{
-        margin-top: 18vh;      
-    }
-    .calendars{
-        height: 100%;
-    }
+  
     /* sixth line */
     .sixth{
         display:flex;
@@ -718,11 +713,13 @@ height:20vh ;
         
         justify-content: center;
     }
-    .calendars{
-        background-color: rgb(4, 4, 60);
-        /* height: 59vh; */
-        color: white;
+    .somwhere{
+        margin-top: 23vh;      
     }
+    .calendars{
+        height: 100%;
+    }
+
     .together{
       height: 100%;
         width:100%;
