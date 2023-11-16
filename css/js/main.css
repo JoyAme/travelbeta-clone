@@ -644,7 +644,6 @@ span{
     top: 23px; */
     left:270px;
     /* width:13%; */
-    
 }
 .county{
     width:70%;
@@ -698,12 +697,20 @@ height:20vh ;
         font-size: 18px;
         margin-right: 5px;
     }
+    .skills{
+        font-size:18px;
+        width:400px;
+     }
+    .rent{
+        width:200px;
+        font-size: 28px;
+    }
     .rental{
         display: grid;
-      margin-left: 40px;
+      margin-left: 60px;
     }
     .bus-D{
-        width:42vh;
+        width:43vh;
     }
     /* end */
 
@@ -747,13 +754,8 @@ height:20vh ;
      .spot{
         font-size: 12px;
      }
-     .skills{
-        font-size: 20px;
-        width:400px;
-     }
-     .rent{
-        font-size: 30px;
-     }
+ 
+    
     
     .going{
         /* color: white;
