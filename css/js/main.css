@@ -760,14 +760,14 @@ span{
         font-size:40px ;
     }
     #name{
-        width:23rem;
+        width:20rem;
         padding: 20px;
         height: 6rem;
     }
     #email{
         height: 6rem;
         margin-top: 20px;
-        width:23rem;
+        width:20rem;
         padding: 20px;
        
     }
