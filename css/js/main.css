@@ -40,7 +40,6 @@ a{
     border: none;
     padding: 16px;
     font-size: 20px;
-
     width:14rem;
 }
 /* ending of header */
@@ -677,12 +676,11 @@ height:20vh ;
 
     }
     .somwhere{
-  
-        
-        margin-top: 18vh;
-        
+        margin-top: 18vh;      
     }
-
+    .calendars{
+        height: 29vh;
+    }
     /* sixth line */
     .sixth{
         display:flex;
