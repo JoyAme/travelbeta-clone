@@ -705,15 +705,16 @@ span{
         justify-content: center;
      }
      .eight{
-        display: block;
+        display: grid;
       
         text-align:center;
         height:55vh;
       
      }
      .loud{
-        display: block;
-      
+        display: grid;
+        justify-content: center;
+      text-align: center;
      }
      .btn{
         display: none;
