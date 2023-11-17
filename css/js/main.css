@@ -33,6 +33,10 @@ a{
 .login{
     padding-right: 20px;
 }
+.createit{
+    text-decoration: none;
+    color: white;
+}
 .btn{
     background-color: rgb(255, 174, 0);
     color: white;
