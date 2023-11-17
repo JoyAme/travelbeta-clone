@@ -744,7 +744,7 @@ height:20vh ;
       text-align: center;
      }
      .btn{
-        display: none;
+        /* display: none; */
      }
      span{
         font-size: 20px;
