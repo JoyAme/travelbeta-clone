@@ -6,7 +6,7 @@
 .header{
   padding: 20px;
     display: flex;
-    height: 14vh;
+    /* height: 14vh; */
     align-items: center;
     justify-content: space-around;
 }
@@ -729,8 +729,18 @@ span{
     object-fit: cover;
 }
 .booking{
-background-color:rgb(204, 216, 219);
-height:20vh ;
+/* background-color:rgb(204, 216, 219); */
+/* height:20vh ; */
+}
+.booking{
+    background-color: rgb(204, 216, 219);
+    padding: 30px;
+   /* margin-left: 5%;
+   margin-right: 5%;
+   z-index: -5px; */
+  /* position: absolute; */
+  /* margin-top:-29px; */
+   height: 20vh;
 }
     .deals{
         /* font-size: 12px;
@@ -812,7 +822,7 @@ height:20vh ;
     .together{
       height: 100%;
         width:100%;
-        bottom: 2rem;
+      
         
      }
     
