@@ -13,13 +13,14 @@
 .fa-bars{
     font-size: 28px;
     cursor: pointer;
+    display: none;
 }
-.menu{
+/* .menu{
     display: flex;
     align-items: center;
     justify-content: space-around;
 
-}
+} */
 .travelbeta{
     width:10%;
     object-fit: contain;
@@ -62,19 +63,22 @@ a{
     /* position: relative; */
    /* height: 100%; */
 }
-.going-some{
-    position: relative;
+.going-there{
+    height: 40vh;
+    width:100%;
+    object-fit: cover;
+    /* position: relative;
     background-position: center;
     width:100%;
   height: 50vh;
    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('/images/goingwhere.webp');
+    background-repeat: no-repeat; */
+    /* background-image: url('/images/goingwhere.webp'); */
 }
 .going{
     color: white;
     position: absolute;
-    top:10rem;
+    top:18rem;
     left:50px;
     font-size: 90px;
     
@@ -548,6 +552,7 @@ span{
    display: flex;
    justify-content: center;
     width:70%;
+    height: 100%;
     margin-top: 5%;
     position: relative;
 }
@@ -560,8 +565,8 @@ span{
     right:80px; 
 }
 .fix-3{
-    position: absolute;
-    top:20px; 
+    /* position: absolute;
+    top:20px;  */
     /* right: 50px; */
 }
 .fixit{
@@ -587,6 +592,63 @@ span{
     background-color: rgb(5, 5, 68);
 }
 
+/* footer */
+.fa-brands{
+    font-size: 22px;
+    padding: 8px;
+    color: black;
+    border-radius: 999px;
+    background-color: white;
+    }
+    .footer{
+        background-color: rgb(15, 15, 83);
+       width:100%;
+       color: white;
+       height: 100%;
+       display: flex;
+       margin-top: 50px;
+      padding: 50px;
+       align-items: center;
+       margin-bottom: 0px;
+       justify-content: space-around;
+    }
+    
+    .row{
+        display: flex;
+       flex-wrap: wrap;
+       column-gap: 50px;
+     
+    }
+    
+    .list1 li{
+        font-size: 25px;
+        color: white;
+        margin-bottom: 14px;
+    }
+    .nav1 h4{
+        margin-bottom: 15px;
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    .ulist{
+        display: block;
+    }
+    .nav1{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .icons{
+        margin-bottom: 20px;
+    }
+    .cons{
+        display: block;
+        row-gap: 50px;
+        text-align:end;
+    
+    }
+    
+/* end */
 
 
 @media screen and (max-width:480px){
@@ -594,9 +656,15 @@ span{
         background-color: white;
     }
     .header{
-        background-color: aquamarine;
+        background-color: white;
+        height:16vh ;
         /* height: 100%; */
         /* margin-bottom: 20vh; */
+    }
+    .fa-bars{
+        font-size: 28px;
+        
+        display: block;
     }
     .going-some{
     /* display: none; */
@@ -871,5 +939,17 @@ padding-bottom: 40px;
         width:60px;
     }
   
+
+    .going-there{
+       display: none;
+    }
+    .going{
+        color: white;
+        position: absolute;
+        top:18rem;
+        left:50px;
+        font-size: 90px;
+        
+    }
     
 }
