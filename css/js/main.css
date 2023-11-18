@@ -6,7 +6,7 @@
 .header{
   padding: 20px;
     display: flex;
-    /* height: 14vh; */
+    height: 100%;
     align-items: center;
     justify-content: space-around;
 }
@@ -658,7 +658,7 @@ span{
     .header{
         background-color: white;
         /* height:16vh ; */
-        /* height: 100%; */
+        
         /* margin-bottom: 20vh; */
     }
     .fa-bars{
@@ -739,8 +739,8 @@ span{
    margin-right: 5%;
    z-index: -5px; */
   /* position: absolute; */
-  /* margin-top:-29px; */
-   height: 20vh;
+  margin-top:29px;
+   height: 17vh;
 }
     .deals{
         /* font-size: 12px;
