@@ -6,8 +6,9 @@
 .header{
   padding: 20px;
     display: flex;
-    height: 100%;
+    height: 14vh;
     align-items: center;
+    /* column-gap: 40%; */
     justify-content: space-around;
 }
 .fa-bars{
@@ -15,7 +16,13 @@
     cursor: pointer;
     display: none;
 }
-/* .menu{
+.menu{
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   padding: 25px;
+}
+/* .heady{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -26,7 +33,7 @@
     object-fit: contain;
 }
 .log{
-    margin-left: 30px;
+    margin-left: 10%;
     display: flex;
     align-items: center;
 }
@@ -731,6 +738,9 @@ span{
 .booking{
 /* background-color:rgb(204, 216, 219); */
 /* height:20vh ; */
+}
+.menu{
+    display: none;
 }
 .booking{
     background-color: rgb(204, 216, 219);
