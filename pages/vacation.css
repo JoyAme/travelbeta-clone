@@ -88,22 +88,60 @@ img{
     max-width: 100%;
 }
 /* footer */
+.fa-brands{
+font-size: 22px;
+padding: 8px;
+color: black;
+border-radius: 999px;
+background-color: white;
+}
 .footer{
-    background-color: rgb(18, 18, 65);
+    background-color: rgb(15, 15, 83);
    width:100%;
    color: white;
-   height: 40vh;
+   height: 100%;
+   display: flex;
+   margin-top: 50px;
+  padding: 50px;
+   align-items: center;
+   margin-bottom: 0px;
+   justify-content: space-around;
 }
-.lists{
+
+.row{
     display: flex;
-    flex-direction: column;
+   flex-wrap: wrap;
+   column-gap: 50px;
+ 
 }
-.list{
+
+.list1 li{
+    font-size: 25px;
     color: white;
+    margin-bottom: 14px;
 }
-/* .nav1{
+.nav1 h4{
+    margin-bottom: 15px;
+    margin-top: 70px;
+    font-size: 30px;
+}
+.ulist{
     display: block;
-} */
+}
+.nav1{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.icons{
+    margin-bottom: 20px;
+}
+.cons{
+    display: block;
+    row-gap: 50px;
+    text-align:end;
+
+}
 
 
 /* MOBILE VIEW */
@@ -127,11 +165,20 @@ img{
   
     }
     .room-name{
-       font-size: 24px;
+       font-size: 22px;
        width:290px
     }
     .housing{
        width: 100%;
        
+    }
+    .amount{
+        font-size: 30px;
+    }
+    .list1 li{
+        font-size: 18px;
+    }
+    .nav1 h4{
+        font-size: 20px;
     }
     }
