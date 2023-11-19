@@ -721,8 +721,6 @@ span{
        height: 100%;
      } */
     #menu-bar{
-       
-        
         display: block;
     }
     .travelbeta{
@@ -810,7 +808,7 @@ span{
    z-index: -5px; */
   /* position: absolute; */
   margin-top:29px;
-   height: 17vh;
+   height: 100%;
 }
     .deals{
         /* font-size: 12px;
