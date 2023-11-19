@@ -808,7 +808,7 @@ span{
    z-index: -5px; */
   /* position: absolute; */
   margin-top:29px;
-   height: 19vh;
+   height: 23vh;
 }
     .deals{
         /* font-size: 12px;
@@ -838,21 +838,16 @@ span{
         display: flex;
     }
     .require
-    /* .inputt{
-       background-color: green;
-        width:13rem;
-        border: none;
-        outline: none;
-     }
-#inpu{
-    background-color: aquamarine;
-} */
 
-    /* sixth line */
     .sixth{
-        display:flex;
-        flex-direction: column;
-        
+   
+    }
+    #sixth{
+        display: block;
+    }
+    
+    .list1 li{
+        font-size: 18px;
     }
     .class-btnn{
         width:320px;
@@ -1024,7 +1019,7 @@ padding-bottom: 40px;
     .services{
       
         margin-right: 16px;
-       
+       cursor: pointer;
     }
     .topic{
         font-size: 18px;
