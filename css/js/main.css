@@ -7,21 +7,42 @@
   padding: 20px;
     display: flex;
     height: 14vh;
+  
     align-items: center;
-    /* column-gap: 40%; */
-    justify-content: space-around;
+    
+    justify-content:space-around;
 }
 .fa-bars{
     font-size: 28px;
     cursor: pointer;
     display: none;
 }
-.menu{
+.barr{
     display: flex;
     align-items: center;
-   justify-content: space-around;
-   padding: 25px;
+    margin-bottom: 20px;
+  justify-content:space-between;
+
 }
+.barz{
+   
+   /* left: 0; */
+   height: 100%;
+   right: 0;
+   z-index:12;
+  position: absolute;
+    
+    width:100%;
+   display: none;
+}
+#arrow-1{
+    
+ color: black;
+  
+}
+/* .menu li{
+    margin-left: 40px;
+} */
 /* .heady{
     display: flex;
     align-items: center;
@@ -30,22 +51,24 @@
 } */
 .travelbeta{
     width:10%;
-    object-fit: contain;
+    object-fit: cover;
 }
 .log{
-    margin-left: 10%;
+    margin-left: 20%;
     display: flex;
     align-items: center;
 }
-ul{
-    display: flex;
+.barz1 ul{
+    display:flex;
+    
+    justify-content: space-between;
 }
 li{
     list-style: none;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 a{
-    font-size: 20px;
+    font-size: 24px;
     text-decoration: none;
     color: black;
 }
@@ -67,10 +90,13 @@ a{
 }
 /* ending of header */
 .somwhere{
+  
+    
     /* position: relative; */
    /* height: 100%; */
 }
 .going-there{
+  
     height: 40vh;
     width:100%;
     object-fit: cover;
@@ -666,12 +692,28 @@ span{
         background-color: white;
         /* height:16vh ; */
         
+        justify-content: space-between;
+       
         /* margin-bottom: 20vh; */
     }
+    .barz{
+        background-color: white;
+   display: none;
+   padding: 20px;
+     }
+     .request{
+        display: none;
+     }
+     .barz.active{
+       height: 100%;
+     }
     .fa-bars{
         font-size: 28px;
         
         display: block;
+    }
+    .travelbeta{
+        width:40%;
     }
     .going-some{
     /* display: none; */
@@ -738,6 +780,11 @@ span{
 .booking{
 /* background-color:rgb(204, 216, 219); */
 /* height:20vh ; */
+}
+.barz1,
+.log
+{
+    display: none;
 }
 .menu{
     display: none;
