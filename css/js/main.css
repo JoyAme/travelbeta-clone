@@ -747,7 +747,16 @@ span{
         width:230px;
     }
   
- 
+    .F--{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .F---{
+        font-size: 18px;
+        color: grey;
+        margin-top: 20px;
+        width:300px;
+    }
    
     .bookings-1{
         display: grid;
@@ -852,6 +861,7 @@ span{
     .class-btnn{
         width:320px;
         justify-content: center;
+        cursor: pointer;
     }
     .class-btn1{
         font-size: 18px;
@@ -870,7 +880,7 @@ span{
       margin-left: 40px;
     }
     .bus-D{
-        width:43vh;
+        width:44vh;
     }
     /* end */
     .together{
@@ -964,8 +974,8 @@ padding-bottom: 40px;
         font-size: 18px;
     }
     #trump{
-        margin: 30px;
-        /* font-size:0px ; */
+        margin: 20px;
+        font-size:40px ;
     }
 /* fourth */
 
@@ -1040,5 +1050,7 @@ padding-bottom: 40px;
         font-size: 90px;
         
     }
-    
+    .nav1 h4{
+        font-size: 20px;
+    }
 }
