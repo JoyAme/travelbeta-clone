@@ -12,7 +12,7 @@
     
     justify-content:space-around;
 }
-.fa-bars{
+#menu-bar{
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -23,6 +23,11 @@
     margin-bottom: 20px;
   justify-content:space-between;
 
+}
+#close-bar{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
 }
 .barz{
    
@@ -373,6 +378,9 @@ a{
     margin: auto;
     justify-content: space-around;
 }
+.request1{
+    display: none;
+}
 /* fifth */
 .book-k{
     width:100%;
@@ -696,6 +704,11 @@ span{
        
         /* margin-bottom: 20vh; */
     }
+    /* #close-bar{
+        display: none;
+        font-size: 30px;
+        cursor: pointer;
+    } */
     .barz{
         background-color: white;
    display: none;
@@ -704,11 +717,11 @@ span{
      .request{
         display: none;
      }
-     .barz.active{
+     /* .barz.active{
        height: 100%;
-     }
-    .fa-bars{
-        font-size: 28px;
+     } */
+    #menu-bar{
+       
         
         display: block;
     }
@@ -822,7 +835,11 @@ span{
        height: 20rem;
 
     }
-  
+    .request1{
+        display: block;
+        display: flex;
+    }
+    .require
     /* .inputt{
        background-color: green;
         width:13rem;

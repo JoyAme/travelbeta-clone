@@ -1,22 +1,22 @@
 
-const menu=document.getElementById('menu-bar')
+let menu=document.getElementById('menu-bar');
+let closee=document.getElementById('close-bar');
+let Bar=document.querySelector('.barz')
 
-const Click=()=>{
 
+
+
+function OpenMenu(){
+   console.log('great')
+    Bar.style.display='block';
+    closee.style.display='block';
+    menu.style.display='none';
 }
 
 
-function Click(){
-    const Bar=document.querySelector('.barz');
-    Bar.style.display='block'
+function CloseMenu(){
+   
+    Bar.style.display='none'
+    menu.style.display='block'
+    closee.style.display='none'
 }
-
-
-menu.addEventListener('click', function(){
-    menuist.style.display='block';
-    console.log('click')
-})
-closed.addEventListener('click', function(){
-    menuist.style.display='none';
-    console.log('click')
-})

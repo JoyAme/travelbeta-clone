@@ -10,6 +10,43 @@
     align-items: center;
     justify-content: space-around;
 }
+
+#menu-bar{
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+.barr{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  justify-content:space-between;
+
+}
+#close-bar{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.barz{
+   
+   /* left: 0; */
+   height: 100%;
+   right: 0;
+   z-index:12;
+  position: absolute;
+    
+    width:100%;
+   display: none;
+}
+
+
+
+
+
+
+
 .travelbeta{
     width:10%;
     object-fit: contain;
@@ -147,6 +184,40 @@ background-color: white;
 /* MOBILE VIEW */
 
 @media screen and (max-width:480px){
+.header{
+    justify-content: space-between;
+}
+    .barz{
+        background-color: white;
+   display: none;
+   padding: 20px;
+     }
+     ul.barz4  {
+        display:block;
+        
+       
+    }
+     .request{
+        display: none;
+     }
+ 
+    #menu-bar{
+        display: block;
+    }
+    .barz1,
+    .log{
+            display: none;
+        }
+
+
+
+
+
+
+
+        .travelbeta{
+            width:40%;
+        }
     .vacay{
         display: none;
     }
