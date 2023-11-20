@@ -112,6 +112,13 @@ form{
     .openit{
         font-size: 18px;
     }
+    form{
+     
+   
+      
+      height: 100%;
+   
+     }
     .travel-beta{
         width:40%;
     }
@@ -122,7 +129,7 @@ form{
      }
      .btn{
         padding: 15px;
-        margin-top: 20px;
+        
        margin-bottom: 20px;
     }
     
