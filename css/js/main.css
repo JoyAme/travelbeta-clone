@@ -79,6 +79,7 @@ a{
 }
 .login{
     padding-right: 20px;
+    color: black;
 }
 .createit{
     text-decoration: none;
@@ -727,7 +728,7 @@ span{
         width:40%;
     }
     .going-some{
-    /* display: none; */
+    display: none;
     }
     /* .header{
         display: block;
@@ -938,7 +939,8 @@ padding-bottom: 40px;
         position: absolute;
         top:10rem;
         left:50px; */
-        font-size: 40px;   
+        display: none;
+        font-size: 10px;   
     }
     .watsapp{
         padding: 25px;

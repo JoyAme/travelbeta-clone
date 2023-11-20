@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: rgb(19, 19, 124);
+    /* color: white; */
+}
+
+.create{
+    color: white;
+   margin-bottom: 60px;
+  text-align: center;
+}
+.login{
+    color: black;
+    padding-bottom: 50px;
+    font-size: 18px;
+  margin-top: 50px;
+   text-align: center;
+ }
+ a{
+    text-decoration: none;
+    font-size: 24px;
+   
+    color:rgb(19, 19, 124) ;
+ }
+ .terms{
+    font-size: 18px;
+ }
+.centre-body{
+    margin-top: 50px;
+}
+.card{
+    padding-top: 70px;
+    border-radius: 20px;
+   width:30%;
+   /* height:70vh; */
+   /* padding: 25px; */
+   margin: auto;
+    background-color: white;
+}
+.inpu{
+   margin-bottom: 50px;
+   width:100%;
+   padding: 15px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   background-color: whitesmoke;
+   border-color:  1px solid rgb(230, 225, 225);
+}
+.check{
+    display: flex;  
+    /* margin: auto; */
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.check-box{
+    /* font-size: 48px;
+    padding: 40px; */
+   width:39px;
+  
+   margin-left: 50px;
+   /* margin-right: 5px; */
+}
+form{
+   color: grey;
+    background-color:whitesmoke;
+ width: 75%;
+ 
+ height: 23vh;
+   padding: 40px;
+   margin: auto;
+    /* justify-content: center; */
+}
+
+.Remember{
+    color: black;
+}
+
+.btn{
+    padding: 20px;
+    width:76%;
+    margin: auto;
+    background-color: orange;
+    color: white;
+    font-size: 24px;
+   text-align: center;
+    border: none;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:480px){
+    .header{
+       box-shadow: 5px 5px 5px 0 rgb(218, 216, 216);
+    }
+    .travel-beta{
+        width:40%;
+    }
+   
+     .inpu{
+        background-color: white;
+       
+     }
+     form{
+        background-color:white;
+     }
+    body{
+        /* background-color: white; */
+    }
+   .card{
+    width:90%;
+   }
+}
