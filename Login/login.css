@@ -109,6 +109,9 @@ form{
     .header{
        box-shadow: 5px 5px 5px 0 rgb(218, 216, 216);
     }
+    .openit{
+        font-size: 18px;
+    }
     .travel-beta{
         width:40%;
     }
@@ -119,6 +122,7 @@ form{
      }
      .btn{
         padding: 15px;
+        margin-top: 20px;
        margin-bottom: 20px;
     }
     
