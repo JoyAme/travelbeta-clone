@@ -46,7 +46,7 @@ body{
    /* padding: 25px; */
    margin: auto;
     background-color: white;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 .inpu{
    margin-bottom: 50px;
@@ -62,6 +62,7 @@ body{
 .check{
     display: flex;  
     /* margin: auto; */
+    margin-top: 30px;
     margin-left: 40px;
     /* margin-bottom: 40px; */
     /* margin-top: 40px; */
@@ -112,11 +113,12 @@ form{
     .openit{
         font-size: 18px;
     }
+    
     form{
      
    
-      
-      height: 100%;
+      background-color: white;
+      height: 70%;
    
      }
     .travel-beta{
@@ -128,14 +130,14 @@ form{
        
      }
      .btn{
-        padding: 15px;
-        
+        padding: 12px;
+        font-size:20px ;
        margin-bottom: 20px;
     }
     
-     form{
+     /* form{
         background-color:white;
-     }
+     } */
     body{
         /* background-color: white; */
     }
