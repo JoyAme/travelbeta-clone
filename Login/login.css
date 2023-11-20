@@ -39,13 +39,14 @@ body{
     margin-top: 50px;
 }
 .card{
-    padding-top: 70px;
+    padding-top: 50px;
     border-radius: 20px;
    width:30%;
    /* height:70vh; */
    /* padding: 25px; */
    margin: auto;
     background-color: white;
+    padding-bottom: 60px;
 }
 .inpu{
    margin-bottom: 50px;
