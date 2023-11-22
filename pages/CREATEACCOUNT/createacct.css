@@ -52,6 +52,8 @@ body{
    padding: 15px;
    border-top: none;
    border-left: none;
+   outline: none;
+   font-size: 18px;
    border-right: none;
    background-color: whitesmoke;
    border-color:  1px solid rgb(230, 225, 225);

@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+  padding: 20px;
+    display: flex;
+    height: 14vh;
+  
+    align-items: center;
+    box-shadow: 5px 5px 5px 0 rgb(218, 216, 216);
+    justify-content:space-around;
+}
+
+#menu-bar{
+    font-size: 28px;
+    cursor: pointer;
+    /* display: none; */
+}
+.barr{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  justify-content:space-between;
+
+}
+#close-bar{
+    /* display: none; */
+    font-size: 30px;
+    cursor: pointer;
+}
+#downA{
+    margin-left: 10px;
+}
+.fa-user{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    border-radius: 999px;
+    background-color: rgb(65, 65, 167);
+}
+.barz{
+   
+   /* left: 0; */
+   height: 100%;
+   right: 0;
+   z-index:12;
+  position: absolute;
+    
+    width:100%;
+   display: none;
+}
+#arrow-1{
+    
+ color: black;
+  
+}
+
+.travelbeta{
+    width:10%;
+    object-fit: cover;
+}
+.log{
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+}
+.barz1 ul{
+    display:flex;
+    
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    padding-left: 30px;
+}
+
+a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+.login{
+    padding-right: 20px;
+    color: black;
+}
+.createit{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    background-color: rgb(255, 174, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 16px;
+    font-size: 20px;
+    width:14rem;
+}
+
+.material-symbols-outlined {
+   
+  font-variation-settings:
+ 
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+/* body */
+.bodyy{
+    display: flex;
+    justify-content: flex-start;
+}
+.align{
+    display: flex;
+    flex-direction: row;
+   justify-content:center;
+   margin-top: 40px;
+   align-items: center;
+   font-size: 24px;
+   text-align:start;
+}
+#chat{
+    font-size: 35px;
+    margin-right: 20px;
+}
+.align1{
+    display: flex;
+    margin-top: 17em;
+    font-size: 24px;
+   
+   justify-content: center;
+   align-items: center;
+}
+.left-bar{
+    padding: 20px;
+    background-color: rgb(9, 9, 85);
+    height: 100vh;
+    width:23%;
+    display: flex;
+   /* position: fixed;
+   top: 0;
+   bottom:0;
+   left:0;
+   right: 0; */
+  
+    flex-direction: column;
+    color: white;
+   
+}
+/* right bar */
+.box1{
+    position: relative;
+  
+}
+.greetings{
+    font-size: 50px;
+    color: grey;
+}
+.spann{
+    color: rgb(52, 50, 50);
+    font-size: 55px;
+}
+.class{
+    position: absolute;
+    color: white;
+    bottom:90px;
+    left:40px;
+}
+.box{
+    display: grid;
+    
+   grid-template-columns: repeat(2,460px);
+margin-top: 30px;
+   column-gap: 20px;
+   /* text-align: center; */
+   /* column-gap: 10px; */
+}
+.right-bar{
+    margin:70px;
+}
+.box4{
+ display: grid;
+}
+.box2{
+   width:40vh;
+    display: flex;
+   color: white;
+   /* height: 100%; */
+   /* line-height: 1px; */
+     padding: 20px;
+     align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 213, 0);
+}
+.cation{
+    width:40vh;
+    object-fit: cover;
+    /* height: 40%; */
+}
+.view{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(133, 133, 206);
+}
+
+
+
+@media screen and (max-width:480px){
+    .barz1{
+       display: none;
+    }
+  
+#close-bar{
+    display: none;
+}
+.left-bar{
+    width:70%;
+    z-index: -1000px;
+    height: 160vh;
+   position: absolute;
+   display: none;
+}
+   .box{
+    display: block;
+    /* z-index: -1px; */
+   } 
+   .box1{
+      z-index: -1;
+   }  
+   .cation,
+   .box2{
+    width:30vh;
+   }  
+    }
