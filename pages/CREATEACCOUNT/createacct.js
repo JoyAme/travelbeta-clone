@@ -42,7 +42,7 @@ Form.addEventListener('click',(e)=>{
         alert('fill in six words')
     }
     else{
-        window.location.assign('/index.html')
+        window.location.assign('/profilepage/profile.html')
         alert('registration in successful')
     }
     console.log(FirstName)
