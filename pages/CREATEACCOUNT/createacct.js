@@ -4,11 +4,11 @@ const Form=document.getElementById('form')
 messages=[]
 Form.addEventListener('click',(e)=>{
     e.preventDefault()
-messages.push({
-    FirstName:FirstName,
-    LastName:LastName,
-    Email:Email,
-})
+// messages.push({
+//     FirstName:FirstName,
+//     LastName:LastName,
+//     Email:Email,
+// })
     const FirstName= document.getElementById('FirstName').value;
     const LastName= document.getElementById('LastName').value;
     const Email= document.getElementById('Email').value;
@@ -27,6 +27,8 @@ messages.push({
     //     alert('fill in details');
     // }
     // else{
+    //     window.location.assign('/index.html')
+        
     //     alert('registration succesfull');
     // }
     if(FirstName == ""){
