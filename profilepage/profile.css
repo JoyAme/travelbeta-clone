@@ -16,7 +16,7 @@
 #menu-bar{
     font-size: 28px;
     cursor: pointer;
-    /* display: none; */
+    display: none;
 }
 .barr{
     display: flex;
@@ -26,7 +26,7 @@
 
 }
 #close-bar{
-    /* display: none; */
+    display: none;
     font-size: 30px;
     cursor: pointer;
 }
@@ -213,7 +213,10 @@ margin-top: 30px;
     .barz1{
        display: none;
     }
-  
+    #menu-bar{
+       
+        display: block;
+    }
 #close-bar{
     display: none;
 }
