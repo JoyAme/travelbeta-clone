@@ -43,7 +43,7 @@ Form.addEventListener('click',(e)=>{
     }
     else{
         window.location.assign('/index.html')
-        alert('logg in successful')
+        alert('registration in successful')
     }
     console.log(FirstName)
     console.log(LastName)
