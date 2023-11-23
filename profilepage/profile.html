@@ -73,7 +73,9 @@
 
 
         <div class="right-bar">
-            <h1 class="greetings">Welcome,<span class="spann">Joy</span></h1>
+            <h1 class="greetings">Welcome,<span class="spann"><script>
+                document.write(localStorage.getItem('FirstName'))
+            </script></span></h1>
             <div class="box">
                 <div class="box1">
                     <div class="box4">
@@ -150,6 +152,7 @@
             </div>
         </div>
     </div>
+    
     <script src="/profilepage/profile.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 
 const Form=document.getElementById('form')
 
-messages=[]
+
 Form.addEventListener('click',(e)=>{
     e.preventDefault()
 // messages.push({
@@ -9,42 +9,43 @@ Form.addEventListener('click',(e)=>{
 //     LastName:LastName,
 //     Email:Email,
 // })
-    const FirstName= document.getElementById('FirstName').value;
-    const LastName= document.getElementById('LastName').value;
-    const Email= document.getElementById('Email').value;
-    const Password= document.getElementById('Password').value
+    let FirstName= document.getElementById('FirstName').value;
+    let LastName= document.getElementById('LastName').value;
+    let Email= document.getElementById('Email').value;
+    let Password= document.getElementById('Password').value
     
-   let First= localStorage.setItem('Firstname', FirstName);
-   let Last= localStorage.setItem('LastName', LastName);
-   let email= localStorage.setItem('Email', Email);
-   let password= localStorage.setItem('Password', Password);
+//    let First= localStorage.setItem('Firstname', FirstName);
+//    let Last= localStorage.setItem('LastName', LastName);
+//    let email= localStorage.setItem('Email', Email);
+//    let password= localStorage.setItem('Password', Password);
     
+ let user=[];
+ user=JSON.parse(localStorage.getItem("users"))?JSON.parse(localStorage.getItem("users")):[]
 
-    // if(FirstName === '')
-    // {
-    //     alert('fill in details');
-    // }else if(LastName === ''){
-    //     alert('fill in details');
-    // }
-    // else{
-    //     window.location.assign('/index.html')
+    if(user.some((v)=>{
+        return v.Email === Email
+    })){
+       
+        alert('Duplicate information')
+    }else{
+        user.push({
+            "FirstName":FirstName,
+            "LastName":LastName,
+            "Email":Email,
+            "Password":Password
+        })
         
-    //     alert('registration succesfull');
-    // }
-    if(FirstName == ""){
-        alert('please fill')
-    }else if (LastName == ""){
-        alert('input details')
+        localStorage.setItem("users",JSON.stringify(user))
     }
-    else if (Email == ""){
-        alert('input your name')
-    } else if (Password < 6){
-        alert('fill in six words')
-    }
-    else{
-        window.location.assign('/profilepage/profile.html')
-        alert('registration in successful')
-    }
+
+
+
+
+
+
+
+
+   
     console.log(FirstName)
     console.log(LastName)
     console.log(Email)

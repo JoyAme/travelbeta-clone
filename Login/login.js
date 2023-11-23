@@ -7,17 +7,21 @@ ForM.addEventListener('click',(e)=>{
    e.preventDefault()
 
 
-    let email=localStorage.getItem('Email');
-    let password= localStorage.getItem('Password');
-    let Fname= document.getElementById('Email').value;
-    let emmail= document.getElementById('Password').value;
+    let Email= document.getElementById('Email').value;
+    let Password= document.getElementById('Password').value;
 
 
-    if(Fname === email && emmail === password){
+    let user=[];
+ user=JSON.parse(localStorage.getItem("users"))?JSON.parse(localStorage.getItem("users")):[]
+
+    if(user.some((v)=>{
+        return v.Email==Email && v.Password==Password
+    })){
         window.location.assign('/profilepage/profile.html')
-        alert('logg in successful')
+        alert('Logged successful')
     }else{
-        alert('you are not logged in')
-    }
+        alert("Login failed")
+        }
+        localStorage.getItem("users",JSON.stringify(user))
     console.log('LOGGED')
 })  
