@@ -93,6 +93,7 @@ form{
 
 .btn{
     padding: 20px;
+    cursor: pointer;
     width:76%;
     margin: auto;
     background-color: orange;

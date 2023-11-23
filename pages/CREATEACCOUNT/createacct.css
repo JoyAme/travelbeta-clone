@@ -82,7 +82,7 @@ form{
     background-color: orange;
     color: white;
     font-size: 24px;
-   
+   cursor: pointer;
     border: none;
     border-radius: 8px;
 }

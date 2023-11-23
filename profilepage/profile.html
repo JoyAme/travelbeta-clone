@@ -63,8 +63,8 @@
             </div> 
             
         </div>
-        <div class="align1">
-            <span class="material-symbols-outlined" id="chat">
+        <div class="align1" onclick="LogOut()">
+            <span class="material-symbols-outlined" id="chat" >
                 logout
                 </span>
                 <h4 class="names">Logout</h4>
@@ -155,6 +155,13 @@
             </div>
         </div>
     </div>
+    <script>
+        function LogOut(){
+            localStorage.removeItem('Email')
+            localStorage.removeItem('Password')
+            window.location.assign('/Login/login.html')
+        }
+    </script>
     
     <script src="/profilepage/profile.js"></script>
 </body>
