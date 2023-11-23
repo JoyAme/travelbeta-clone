@@ -12,11 +12,11 @@ function OpenMenu(){
 
 function CloseMenu(){
    
-    Bar.style.display='none'
+    leftBar.style.display='none'
     menu.style.display='block'
     closee.style.display='none'
 }
 
 
 
-const input= document.getElementById('inpu');
+

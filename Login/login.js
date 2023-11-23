@@ -7,13 +7,13 @@ ForM.addEventListener('click',(e)=>{
    e.preventDefault()
 
 
-    let fuupp=localStorage.getItem('Email');
-    let pupp= localStorage.getItem('Password');
+    let email=localStorage.getItem('Email');
+    let password= localStorage.getItem('Password');
     let Fname= document.getElementById('Email').value;
     let emmail= document.getElementById('Password').value;
 
 
-    if(Fname == fuupp && emmail == pupp){
+    if(Fname === email && emmail === password){
         window.location.assign('/profilepage/profile.html')
         alert('logg in successful')
     }else{
