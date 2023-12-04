@@ -40,6 +40,23 @@ Form.addEventListener('click',(e)=>{
 
 
 
+    // if(FirstName != '' && LastName != '' && Email !='' && Password != ''){
+    //     alert('you have successfully Loggedin ')
+    //     console.log(FirstName)
+    //  }else{
+    //         user.push({
+    //             "FirstName":FirstName,
+    //             "LastName":LastName,s
+    //             "Email":Email,
+    //             "Password":Password,
+    //         }
+            
+            
+    //         )
+            
+    //         localStorage.setItem("users",JSON.stringify(user))
+    
+    //     }
 
 
 

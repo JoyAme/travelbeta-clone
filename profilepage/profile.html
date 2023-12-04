@@ -75,7 +75,7 @@
         <div class="right-bar">
             <h1 class="greetings">Welcome,<span class="spann">
                 <script>
-                document.write(localStorage.getItem("users",JSON.stringify(FirstName)))
+                document.write(localStorage.getItem("users",JSON.parse(FirstName)))
             </script>
             </span></h1>
             <div class="box">
