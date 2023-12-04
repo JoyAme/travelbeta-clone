@@ -13,7 +13,7 @@
         <div class="header">
             <i class="fa-solid fa-bars" id="menu-bar" onclick="OpenMenu()"></i>
             <img src="/images/travelbeta.png" alt="travel" class="travelbeta"/>
-            <i class="fa-solid fa-xmark" id="close-bar" onclick="CloseMenu()"></i>
+            
             <!-- <div class="menu"> -->
                 <nav  class="barz1">
                     <ul>
@@ -23,13 +23,14 @@
                     <a href=""><li>Become an afflliate</li></a>
                     </ul>
                 </nav>
+
                 <div class="log">
                     <i class="fa-regular fa-user" class="user-"></i>
                     <span class="material-symbols-outlined" id="downA">
                         keyboard_arrow_down
                         </span>
                 </div>
-            <!-- </div> -->
+                      <!-- </div> -->
             <div>
             
             
@@ -40,6 +41,7 @@
     <!-- second-line -->
     <div class="bodyy">
         <div class="left-bar">
+            <i class="fa-solid fa-xmark" id="close-bar" onclick="CloseMenu()"></i>
             <div class="left-bar1">
             <div class="align">
                 <span class="material-symbols-outlined" id="chat">
@@ -83,9 +85,9 @@
                     <div class="box4">
                         <img src="/images/vacay1.jpg" alt="vac" class="cation"/>
                         <div class="class">
-                            <h4>flight</h4>
-                            <h4>Booked</h4>
-                            <h4>0</h4>
+                            <h4 class="flightt">flight<br>Booked</h4>
+                            <!-- <h4>Booked</h4> -->
+                            <h4 class="numb">0</h4>
                         </div> 
                         <div class="box2">
                             <h3><a href='/index.html'>Bookings</a></h3>
@@ -104,7 +106,7 @@
                         <div class="class">
                             <h4>flight</h4>
                             <h4>Booked</h4>
-                            <h4>0</h4>
+                            <h4 class="numb">0</h4>
                         </div> 
                         <div class="box2">
                             <h3><a href='/index.html'>Bookings</h3></a>
@@ -121,7 +123,7 @@
                         <div class="class">
                             <h4>flight</h4>
                             <h4>Booked</h4>
-                            <h4>0</h4>
+                            <h4 class="numb">0</h4>
                         </div> 
                                  
                     </div>  
@@ -139,7 +141,7 @@
                         <div class="class">
                             <h4>flight</h4>
                             <h4>Booked</h4>
-                            <h4>0</h4>
+                            <h4 class="numb">0</h4>
                         </div> 
                         <div class="box2">
                             <h3><a href='/index.html'>Bookings</h3></a>
@@ -155,6 +157,10 @@
             </div>
         </div>
     </div>
+
+
+
+
     <script>
         function LogOut(){
             localStorage.removeItem('Email')
