@@ -87,6 +87,40 @@ form{
     border-radius: 8px;
 }
 
+#menu-bar{
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+.barr{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  justify-content:space-between;
+
+}
+#close-bar{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.barz{
+   
+   /* left: 0; */
+   height: 100%;
+   right: 0;
+   z-index:12;
+  position: absolute;
+    border: none;
+    width:100%;
+   display: none;
+}
+#arrow-1{
+    
+ color: black;
+  
+}
+
 @media screen and (max-width:480px){
     .header{
        box-shadow: 5px 5px 5px 0 rgb(218, 216, 216);
@@ -114,4 +148,29 @@ form{
    .card{
     width:90%;
    }
+
+
+
+   .barz{
+    background-color: white;
+display: none;
+border: none;
+padding: 20px;
+ }
+ .barz.active{
+    display: block;
+    
+ }
+   #menu-bar{
+    display: block;
+}
+#menu-bar.active{
+    display: none;
+}
+/* #close-bar.active{
+    display: block;
+} */
+.travelbeta{
+    width:40%;
+}
 }

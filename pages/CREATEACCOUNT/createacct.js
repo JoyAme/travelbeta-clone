@@ -37,8 +37,13 @@ Form.addEventListener('click',(e)=>{
         
         localStorage.setItem("users",JSON.stringify(user))
     }
-
-
+  
+    
+    
+    
+    
+ 
+    
 
     // if(FirstName != '' && LastName != '' && Email !='' && Password != ''){
     //     alert('you have successfully Loggedin ')
@@ -67,4 +72,23 @@ Form.addEventListener('click',(e)=>{
     console.log(LastName)
     console.log(Email)
     console.log(Password)
+})
+
+let menu=document.getElementById('menu-bar');
+let closee=document.getElementById('close-bar');
+let Bar=document.querySelector('.barz')
+
+menu.addEventListener('click' ,()=>{
+    Bar.classList.toggle('active')
+    // closee.classList.toggle('active')
+   
+    // if(Bar){
+    //     closee.classList.toggle('active')
+    //     menu.classList.toggle('active')
+    // }else if(closee){
+    //     closee.style.display=('none')
+    //     Bar.style.display=('none')
+    //     menu.style.display=('block')
+    // }
+    
 })

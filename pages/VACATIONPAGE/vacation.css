@@ -200,7 +200,10 @@ background-color: white;
      .request{
         display: none;
      }
- 
+     .barz.active{
+        display: block;
+        
+     }
     #menu-bar{
         display: block;
     }
