@@ -8,6 +8,7 @@
     background-color: white;
     padding: 20px;
     display: flex;
+    height: 12vh;
     justify-content: center;
 }
 body{
@@ -30,7 +31,7 @@ body{
     text-decoration: none;
     font-size: 24px;
    
-    color:rgb(19, 19, 124) ;
+    color:black ;
  }
  .terms{
     font-size: 18px;
@@ -90,6 +91,7 @@ form{
 #menu-bar{
     font-size: 28px;
     cursor: pointer;
+    color: black;
     display: none;
 }
 .barr{
@@ -98,6 +100,10 @@ form{
     margin-bottom: 20px;
   justify-content:space-between;
 
+}
+li{
+    list-style: none;
+    padding-left: 30px;
 }
 #close-bar{
     display: none;
@@ -124,6 +130,7 @@ form{
 @media screen and (max-width:480px){
     .header{
        box-shadow: 5px 5px 5px 0 rgb(218, 216, 216);
+       justify-content: space-between;
     }
     .travel-beta{
         width:50%;
@@ -159,6 +166,7 @@ padding: 20px;
  }
  .barz.active{
     display: block;
+
     
  }
    #menu-bar{
