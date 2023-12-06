@@ -137,9 +137,11 @@ a{
 .left-bar{
     padding: 20px;
     background-color: rgb(9, 9, 85);
-    height: 100vh;
+    height: 110vh;
     width:23%;
+    bottom: 0;
     display: flex;
+    /* position: relative; */
    /* position: fixed;
    top: 0;
    bottom:0;
@@ -153,7 +155,7 @@ a{
 /* right bar */
 .box1{
     width:540px;
-    height:440px;
+    height:100%;
     position: relative;
   
 }
@@ -176,15 +178,17 @@ a{
     
 }
 .box{
-    display: grid;
-    
-   grid-template-columns: repeat(2,560px);
-
+ width:80%;
+    display: flex;
+   flex-wrap: wrap;
+    /* display: grid;
+   grid-template-columns: repeat(2,560px); */
+row-gap: 20px;
 margin-top: 30px;
-   /* column-gap: 40px; */
-   /* text-align: center; */
-   /* column-gap: 10px; */
+   column-gap: 40px;
+ 
 }
+
 .right-bar{
     margin:70px;
 }
@@ -254,9 +258,9 @@ margin-top: 30px;
    
 }
    .box{
-    display: grid;
+    /* display: grid;
     justify-content: center;
-    grid-template-columns: repeat(1,370px);
+    grid-template-columns: repeat(1,370px); */
     /* z-index: -1px; */
    } 
    .box1{

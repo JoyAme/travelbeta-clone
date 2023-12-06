@@ -92,16 +92,20 @@ a{
 }
 /* third */
 .rooms{
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(3,560px);
+   padding-top: 30px;
+    margin: auto;
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(3,560px); */
     justify-content: center;
     row-gap: 50px;
     column-gap: 70px;
 }
 .housing{
     width:600px;
-    height: 600px;
+    height: 100%;
     background-color: white;
 }
 .house{
